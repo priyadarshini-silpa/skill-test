@@ -1,5 +1,6 @@
-import Data from "../components/data-fetching"
-
-export default function display(){
-    
+render(){
+    const { state } = this.props.location
+    return (
+      console.log(state.name)
+    )
 }
